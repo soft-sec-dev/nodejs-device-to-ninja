@@ -26,3 +26,4 @@ function capitalize(str) {
     .join(" ");
 }
 console.log(`Server runnin on: http://localhost:${port}`);
+console.log(`currency config nodejs:${process.env.NODE_ENV}`)
