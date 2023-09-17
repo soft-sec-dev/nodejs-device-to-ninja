@@ -1,5 +1,5 @@
-const port = process.argv[2] || process.env.PORT || 3000,
-  http = require("http");
+const port = process.argv[2] || process.env.PORT || 3000
+const  http = require("http");
 
 http
   .createServer((req, res) => {
